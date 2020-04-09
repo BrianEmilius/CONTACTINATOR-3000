@@ -1,0 +1,11 @@
+#devTools {
+	background-color: hsl(240, 31%, 13%);
+	color: hsl(0, 0%, 96%);
+	padding: 2em 1em;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#devTools h1 {
+	margin: 0;
+}

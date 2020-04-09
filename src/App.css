@@ -1,0 +1,40 @@
+header {
+	text-align: center;
+	background-color: var(--primaryColorLight);
+	color: var(--secondaryColor);
+	padding: 1em 0;
+}
+
+header img {
+	width: 200px;
+	height: auto;
+}
+
+main {
+	width: 100%;
+	padding: 1em;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 32em) {
+	main {
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 64em) {
+	main {
+		width: 65%;
+	}
+}
+
+@media screen and (min-width: 96em) {
+	main {
+		width: 50%;
+	}
+}
+
+h1 {
+	margin: 0;
+}
